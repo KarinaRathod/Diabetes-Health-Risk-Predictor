@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual Environments
+venv/
+env/
+.env
+.venv/
+
+# Streamlit specific
+.streamlit/secrets.toml
+
+# IDE / Editor folders
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data files (Ignores the large datasets to prevent GitHub upload errors)
+diabetes_binary_health_indicators_BRFSS2021.csv
+diabetes_binary_5050split_health_indicators_BRFSS2021.csv
+diabetes_012_health_indicators_BRFSS2021.csv
+*.csv
+*.xlsx
+
+# OS generated files
+.DS_Store
+.DS_Store?
+ehthumbs.db
+Icon?
+Thumbs.db
